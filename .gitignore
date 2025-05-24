@@ -1,0 +1,6 @@
+"# 只包含源代码" 
+"*" 
+"!src/" 
+"!src/**" 
+"!.gitignore" 
+"!README.md" 

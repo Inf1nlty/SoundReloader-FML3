@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.inf1nlty.soundreloader.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "target": "DEFAULT",
+  "minVersion": "0.8.3",
+  "client": [
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

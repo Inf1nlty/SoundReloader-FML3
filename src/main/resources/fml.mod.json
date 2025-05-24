@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "soundreloader",
+  "version": "${version}",
+  "depends": {
+    "fishmodloader": ">=3.0.0"
+  },
+  "suggests": {
+
+  },
+  "environment": "client",
+  "name": "Sound Reloader",
+  "description": "Simple Minecraft mod to add a keybind to reload sounds.",
+  "authors": [
+    "Inf1nlty"
+  ],
+  "contributors": [
+
+  ],
+  "license": "",
+  "contact": {
+    "homepage": "",
+    "issues": ""
+  },
+  "entrypoints": {
+    "main": [
+      "com.inf1nlty.soundreloader.SoundReloaderMod"
+    ]
+  },
+  "mixins": [
+    "soundreloader.mixins.json"
+  ]
+}
